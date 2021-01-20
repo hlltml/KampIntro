@@ -26,6 +26,7 @@ namespace Matematik
             Console.WriteLine("Sonuç: " + toplam);
         }
 
+        //params keyword
         public void Topla(params int[] numbers)
         {
             int toplam = numbers.Sum();
